@@ -1,0 +1,26 @@
+{
+  "name": "vuepress-plugin-named-chunks",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "jest": "jest --config jest.config.js .*\\.spec\\.js$",
+    "test": "npm run lint & npm run jest"
+  },
+  "devDependencies": {
+    "@vuepress/core": "^1.0.0-alpha.44",
+    "eslint": "^5.15.1",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jest": "^22.3.2",
+    "eslint-plugin-node": "^8.0.0",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "eslint-plugin-vue": "^5.2.2",
+    "jest": "^24.5.0",
+    "jest-serializer-html": "^6.0.0"
+  },
+  "dependencies": {
+    "@vuepress/shared-utils": "^1.0.0-alpha.44"
+  }
+}
