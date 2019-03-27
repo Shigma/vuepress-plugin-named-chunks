@@ -19,6 +19,8 @@
     "eslint-plugin-vue": "^5.2.2",
     "jest": "^24.5.0",
     "jest-serializer-html": "^6.0.0",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2",
     "vuepress-plugin-dehydrate": "^1.0.2"
   },
   "dependencies": {
