@@ -41,7 +41,7 @@ exports[`named-chunks 404.html 1`] = `
           href="/assets/js/layout-Layout.js"
     >
     <link rel="prefetch"
-          href="/assets/js/page-01f20a2a.js"
+          href="/assets/js/page-8daa1a0e.js"
     >
     <link rel="prefetch"
           href="/assets/js/page-Custom.js"
@@ -115,7 +115,7 @@ exports[`named-chunks custom.html 1`] = `
           href="/assets/js/layout-NotFound.js"
     >
     <link rel="prefetch"
-          href="/assets/js/page-01f20a2a.js"
+          href="/assets/js/page-8daa1a0e.js"
     >
     <link rel="stylesheet"
           href="/assets/css/0.styles.css"
@@ -186,7 +186,7 @@ exports[`named-chunks index.html 1`] = `
           as="script"
     >
     <link rel="preload"
-          href="/assets/js/page-01f20a2a.js"
+          href="/assets/js/page-8daa1a0e.js"
           as="script"
     >
     <link rel="prefetch"
@@ -225,7 +225,7 @@ exports[`named-chunks index.html 1`] = `
             defer
     >
     </script>
-    <script src="/assets/js/page-01f20a2a.js"
+    <script src="/assets/js/page-8daa1a0e.js"
             defer
     >
     </script>
