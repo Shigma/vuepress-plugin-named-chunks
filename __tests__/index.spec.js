@@ -16,18 +16,14 @@ describe('named-chunks', () => {
     await app.build()
   }, 60000)
 
-  // function testForFile (name, file = name) {
-  //   test(name, () => {
-  //     const html = readFileSync(resolve(app.outDir, file), 'utf8')
-  //       .replace(/(src|href)="\/[\w./]+"/g, (_, $1) => $1 + '="/some/asset"')
-  //     expect(html).toMatchSnapshot()
-  //   })
-  // }
+  function testForFile (name, file = name) {
+    test(name, () => {
+      const html = readFileSync(resolve(app.outDir, file), 'utf8')
+      expect(html).toMatchSnapshot()
+    })
+  }
 
-  // testForFile('404.html')
-  // testForFile('index.html')
-  // testForFile('noscript.html')
-  test('hello', () => {
-    expect(1).toBe(1)
-  })
+  testForFile('404.html')
+  testForFile('index.html')
+  testForFile('custom.html')
 })
