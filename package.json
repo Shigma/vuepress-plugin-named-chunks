@@ -1,6 +1,6 @@
 {
   "name": "vuepress-plugin-named-chunks",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "src/index.js",
   "description": "A VuePress plugin to generate named chunks for page and layout components.",
   "author": "Shigma <1700011071@pku.edu.cn>",
@@ -36,7 +36,7 @@
     "jest-serializer-html": "^6.0.0",
     "stylus": "^0.54.5",
     "stylus-loader": "^3.0.2",
-    "vuepress-plugin-named-chunks": "^1.0.2"
+    "vuepress-plugin-dehydrate": "^1.0.2"
   },
   "keywords": [
     "vuepress",
