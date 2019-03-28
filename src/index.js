@@ -33,6 +33,12 @@ module.exports = (options, context) => {
   }
 
   if (layoutChunkName) {
+    const { layoutComponentMap } = context.themeAPI
+    for (const key in layoutComponentMap) {
+      const component = layoutComponentMap[key]
+      component.chunkName = layoutChunkName(component)
+    }
+
     plugins.push({
       name: '@vuepress/internal-layout-components',
 
@@ -43,9 +49,8 @@ module.exports = (options, context) => {
             const component = layoutComponentMap[name]
             const key = JSON.stringify(name)
             const filePath = JSON.stringify(component.path)
-            const chunkName = layoutChunkName(component)
-            const comment = chunkName
-              ? `/* webpackChunkName: ${JSON.stringify(chunkName)} */`
+            const comment = component.chunkName
+              ? `/* webpackChunkName: ${JSON.stringify(component.chunkName)} */`
               : ''
             return `  ${key}: () => import(${comment}${filePath})`
           })

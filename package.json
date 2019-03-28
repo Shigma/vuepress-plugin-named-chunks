@@ -1,7 +1,21 @@
 {
   "name": "vuepress-plugin-named-chunks",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "src/index.js",
+  "description": "A VuePress plugin to generate named chunks for page and layout components.",
+  "author": "Shigma <1700011071@pku.edu.cn>",
+  "license": "MIT",
+  "files": [
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vuepress/vuepress-plugin-named-chunks.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vuepress/vuepress-plugin-named-chunks/issues"
+  },
+  "homepage": "https://vuepress.github.io/plugins/named-chunks/",
   "scripts": {
     "lint": "eslint .",
     "jest": "jest --config jest.config.js .*\\.spec\\.js$",
@@ -22,9 +36,11 @@
     "jest-serializer-html": "^6.0.0",
     "stylus": "^0.54.5",
     "stylus-loader": "^3.0.2",
-    "vuepress-plugin-dehydrate": "^1.0.2"
+    "vuepress-plugin-named-chunks": "^1.0.2"
   },
-  "dependencies": {
-    "@vuepress/shared-utils": "^1.0.0-alpha.44"
-  }
+  "keywords": [
+    "vuepress",
+    "plugin",
+    "named-chunk"
+  ]
 }

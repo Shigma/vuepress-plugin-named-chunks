@@ -20,7 +20,10 @@ jobs:
       - install
       - run:
           name: Lint Code
-          command: yarn lint & yarn jest
+          command: yarn lint
+      - run:
+          name: Test Code
+          command: yarn jest
 
 workflows:
   version: 2
