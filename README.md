@@ -1,5 +1,7 @@
 # [vuepress-plugin-named-chunks](https://vuepress.github.io/plugins/named-chunks.html)
 
+> Migrated to [vuepress-community](https://github.com/vuepress/vuepress-community)
+
 [![npm](https://img.shields.io/npm/v/vuepress-plugin-named-chunks.svg)](https://www.npmjs.com/package/vuepress-plugin-named-chunks)
 [![CircleCI](https://img.shields.io/circleci/project/github/vuepress/vuepress-plugin-named-chunks/master.svg)](https://circleci.com/gh/vuepress/vuepress-plugin-named-chunks)
 
